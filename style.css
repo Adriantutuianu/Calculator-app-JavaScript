@@ -56,6 +56,12 @@ footer {
   margin-top: 10px;
   border-radius: 7px;
 }
+.content div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
 
 /* Content buttons  */
 
