@@ -20,6 +20,7 @@ var displayVal = "0";
 var pendingVal;
 
 // create an variable - initially empty array - holding the operations that were pressed
+var operationsArray = [];
 
 // create functions for all operations: plus, minus, multiply, divide & equal
 // push to array the pending value, operation and second value
