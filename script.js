@@ -8,7 +8,10 @@ var displayedResult = document.getElementsByClassName("result");
 var calcNumBtns = document.getElementsByClassName("calc-btn-num");
 console.log(calcNumBtns);
 // select operator buttons and save them in variables +,-,*,/
-
+var plusBtn = document.getElementsByClassName("plus");
+var minusBtn = document.getElementsByClassName("minus");
+var multiplyBtn = document.getElementsByClassName("multiply");
+var divideBtn = document.getElementsByClassName("divide");
 // declare variable to display 0 by default - on load, on reset and on of any operators
 
 // create a variable and declare the pending variable - undefined initially. - will store the value that was typed first.
