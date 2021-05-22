@@ -15,8 +15,9 @@ var divideBtn = document.getElementsByClassName("divide");
 
 // declare variable to display 0 by default - on load, on reset and on of any operators
 var displayVal = "0";
-console.log(displayVal);
+
 // create a variable and declare the pending variable - undefined initially. - will store the value that was typed first.
+var pendingVal;
 
 // create an variable - initially empty array - holding the operations that were pressed
 
