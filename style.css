@@ -6,8 +6,8 @@
 }
 
 body {
-  /* import Google fonts - Dosis & Kanit */
   /* all elements will have Dosis font, header & footer will have kanit */
+  font-family: "Dosis", sans-serif;
 }
 
 .content {
@@ -18,4 +18,8 @@ body {
   min-height: 340px;
 }
 
+header,
+footer {
+  font-family: "Kanit", sans-serif;
+}
 /* center and align all elements */
