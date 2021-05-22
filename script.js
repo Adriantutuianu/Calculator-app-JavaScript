@@ -6,14 +6,16 @@ var displayedResult = document.getElementsByClassName("result");
 
 // select number buttons and save them in variables 0-9
 var calcNumBtns = document.getElementsByClassName("calc-btn-num");
-console.log(calcNumBtns);
+
 // select operator buttons and save them in variables +,-,*,/
 var plusBtn = document.getElementsByClassName("plus");
 var minusBtn = document.getElementsByClassName("minus");
 var multiplyBtn = document.getElementsByClassName("multiply");
 var divideBtn = document.getElementsByClassName("divide");
-// declare variable to display 0 by default - on load, on reset and on of any operators
 
+// declare variable to display 0 by default - on load, on reset and on of any operators
+var displayVal = "0";
+console.log(displayVal);
 // create a variable and declare the pending variable - undefined initially. - will store the value that was typed first.
 
 // create an variable - initially empty array - holding the operations that were pressed
