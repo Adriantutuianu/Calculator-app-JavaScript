@@ -6,7 +6,7 @@ var displayedResult = document.getElementById("displayed-result");
 
 // select number buttons and save them in variables 0-9
 var calcNumBtns = document.getElementsByClassName("calc-btn-num");
-
+console.log(calcNumBtns.length);
 // select operator buttons and save them in variables +,-,*,/
 var plusBtn = document.getElementById("plus-btn");
 var minusBtn = document.getElementById("minus-btn");
@@ -37,7 +37,10 @@ plusBtn.addEventListener("click", calcPlus);
 
 // loop through all number buttons
 // add an event listener for each button to update the value on click
-
+for (var i = 0; i < calcNumBtns.length; i++) {
+  //   calcNumBtns[i].addEventListener("click", );
+  console.log(i);
+}
 // loop through all operator buttons
 // add an event listener for each button to update the value on click
 
