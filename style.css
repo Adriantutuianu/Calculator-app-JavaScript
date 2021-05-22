@@ -40,9 +40,10 @@ footer {
 
 .content {
   background: rgb(156, 142, 142);
-  width: 320px;
+  width: 280px;
   height: 340px;
   margin-top: 10px;
+  border-radius: 7px;
 }
 
 /* center and align all elements */
