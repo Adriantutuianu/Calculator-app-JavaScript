@@ -54,19 +54,22 @@ footer {
   width: 280px;
   height: 340px;
   margin-top: 10px;
-  border-radius: 7px;
+  /* border-radius: 7px; */
 }
+
 .content div {
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  border: 1px solid grey;
 }
 
 /* Content buttons  */
 
 .result {
   grid-area: result;
+  border: none;
 }
 .ac {
   grid-area: ac;

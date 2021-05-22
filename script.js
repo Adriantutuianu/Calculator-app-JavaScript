@@ -1,4 +1,10 @@
 // select decimal, clear, backspace and total(result) buttons and save them in variables
+var decimalBtn = document.getElementsByClassName("dot");
+var clearBtn = document.getElementsByClassName("ac");
+var backspaceBtn = document.getElementsByClassName("backspace");
+var displayedResult = document.getElementsByClassName("result");
+
+console.log(displayedResult);
 
 // select number buttons and save them in variables 0-9
 
