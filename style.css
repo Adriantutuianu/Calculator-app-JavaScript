@@ -1,0 +1,21 @@
+/* Reset CSS default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* import Google fonts - Dosis & Kanit */
+  /* all elements will have Dosis font, header & footer will have kanit */
+}
+
+.content {
+  background: red;
+  width: 100%;
+  max-width: 220px;
+  height: 100%;
+  min-height: 340px;
+}
+
+/* center and align all elements */
