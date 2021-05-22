@@ -4,10 +4,9 @@ var clearBtn = document.getElementsByClassName("ac");
 var backspaceBtn = document.getElementsByClassName("backspace");
 var displayedResult = document.getElementsByClassName("result");
 
-console.log(displayedResult);
-
 // select number buttons and save them in variables 0-9
-
+var calcNumBtns = document.getElementsByClassName("calc-btn-num");
+console.log(calcNumBtns);
 // select operator buttons and save them in variables +,-,*,/
 
 // declare variable to display 0 by default - on load, on reset and on of any operators
