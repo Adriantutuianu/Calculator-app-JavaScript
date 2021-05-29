@@ -95,11 +95,12 @@ for (var i = 0; i < calcNumBtns.length; i++) {
 
 backspaceBtn.onclick = () => {
   var lengthOfDisplayVal = displayVal.length;
+
   displayVal = displayVal.slice(0, lengthOfDisplayVal - 1);
-  if ((displayVal = "")) {
+  if (displayVal === "") {
     displayVal = "0"; //fix to have at least number 0 visible
   }
-  displayedResult.innerText = displayVal;
+  displayedResult.innerHTML = displayVal; //update displayVal
 };
 
 // create decimal button function
