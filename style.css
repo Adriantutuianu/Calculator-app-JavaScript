@@ -79,11 +79,12 @@ footer {
 .content div.result {
   grid-area: result;
   border: none;
-  font-size: 32px;
+  font-size: 42px;
   justify-content: flex-end;
   color: white;
   margin-right: 10px;
   letter-spacing: 2px;
+  min-height: 80px;
 }
 .ac {
   grid-area: ac;
