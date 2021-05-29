@@ -85,6 +85,7 @@ footer {
   font-size: 24px;
   border: 1px solid grey;
   user-select: none;
+  background-color: var(--light-grey);
 }
 
 .content div:hover {
