@@ -70,6 +70,9 @@ footer {
 .content div:hover {
   cursor: pointer;
 }
+.content div.result:hover {
+  cursor: default;
+}
 
 /* Content buttons  */
 
