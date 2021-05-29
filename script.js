@@ -39,15 +39,15 @@ function updateDisplayVal(clickObj) {
   if (displayVal === "0") {
     displayVal = "";
   }
-  displayVal += btnText;
+  displayVal = displayVal + btnText;
   displayedResult.innerText = displayVal;
 }
 
 // loop through all number buttons
+
 // add an event listener for each button to update the value on click
 for (var i = 0; i < calcNumBtns.length; i++) {
-  //   calcNumBtns[i].addEventListener("click", );
-  console.log(i);
+  calcNumBtns[i].addEventListener("click", updateDisplayVal, false);
 }
 // loop through all operator buttons
 // add an event listener for each button to update the value on click
