@@ -89,8 +89,6 @@ function updateDisplayVal(clickObj) {
 for (var i = 0; i < calcNumBtns.length; i++) {
   calcNumBtns[i].addEventListener("click", updateDisplayVal, false);
 }
-// loop through all operator buttons
-// add an event listener for each button to update the value on click
 
 // create clear button function - call it on click of AC button
 
@@ -98,3 +96,10 @@ for (var i = 0; i < calcNumBtns.length; i++) {
 // if the current value has just 1 number should remove it and add 0, otherwise delete the last number that wass added.
 
 // create decimal button function
+
+clearBtn.onclick = () => {
+  displayVal = "0";
+  pendingVal = "undefined"; //since we clear everything
+  operationsArray = [];
+  displayedResult.innerHTML = displayVal; //update displayVal
+};
