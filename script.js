@@ -104,6 +104,12 @@ backspaceBtn.onclick = () => {
 };
 
 // create decimal button function
+decimalBtn.onclick = () => {
+  if (!displayVal.includes(".")) {
+    displayVal = displayVal + ".";
+  }
+  displayedResult.innerHTML = displayVal;
+};
 
 // create clear button function - call it on click of AC button
 clearBtn.onclick = () => {
