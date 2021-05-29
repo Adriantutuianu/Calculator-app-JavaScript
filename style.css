@@ -64,6 +64,11 @@ footer {
   font-weight: bold;
   font-size: 24px;
   border: 1px solid grey;
+  user-select: none;
+}
+
+.content div:hover {
+  cursor: pointer;
 }
 
 /* Content buttons  */
