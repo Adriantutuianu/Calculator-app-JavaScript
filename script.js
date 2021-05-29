@@ -32,6 +32,7 @@ function calcPlus() {
   operationsArray.push(pendingVal);
   operationsArray.push("+");
 }
+
 function calcMinus() {
   pendingVal = displayVal;
   displayVal = "0";
@@ -39,12 +40,21 @@ function calcMinus() {
   operationsArray.push(pendingVal);
   operationsArray.push("-");
 }
+
 function calcMultiply() {
   pendingVal = displayVal;
   displayVal = "0";
   displayedResult.innerText = displayVal;
   operationsArray.push(pendingVal);
   operationsArray.push("*");
+}
+
+function calcDivide() {
+  pendingVal = displayVal;
+  displayVal = "0";
+  displayedResult.innerText = displayVal;
+  operationsArray.push(pendingVal);
+  operationsArray.push("/");
 }
 
 plusBtn.addEventListener("click", calcPlus);
