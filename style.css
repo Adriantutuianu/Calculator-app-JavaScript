@@ -94,6 +94,14 @@ footer {
   cursor: default;
 }
 
+.content div.equal {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.content div.equal:active {
+  background-color: var(--dark-grey);
+}
+
 /* Content buttons  */
 
 .content div.result {
