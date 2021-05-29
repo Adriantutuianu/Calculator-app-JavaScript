@@ -62,14 +62,20 @@ footer {
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  font-size: 24px;
   border: 1px solid grey;
 }
 
 /* Content buttons  */
 
-.result {
+.content div.result {
   grid-area: result;
   border: none;
+  font-size: 32px;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 10px;
+  letter-spacing: 2px;
 }
 .ac {
   grid-area: ac;
