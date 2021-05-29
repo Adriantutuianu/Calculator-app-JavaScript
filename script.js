@@ -34,6 +34,14 @@ plusBtn.addEventListener("click", calcPlus);
 // the equal function will use .join(' ')); // ['2', '+', '3'] => '2 + 3'
 
 // create a function to update the total result
+function updateDisplayVal(clickObj) {
+  var btnText = clickObj.target.innerText;
+  if (displayVal === "0") {
+    displayVal = "";
+  }
+  displayVal += btnText;
+  displayedResult.innerText = displayVal;
+}
 
 // loop through all number buttons
 // add an event listener for each button to update the value on click
