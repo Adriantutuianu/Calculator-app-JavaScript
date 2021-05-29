@@ -39,6 +39,13 @@ function calcMinus() {
   operationsArray.push(pendingVal);
   operationsArray.push("-");
 }
+function calcMultiply() {
+  pendingVal = displayVal;
+  displayVal = "0";
+  displayedResult.innerText = displayVal;
+  operationsArray.push(pendingVal);
+  operationsArray.push("*");
+}
 
 plusBtn.addEventListener("click", calcPlus);
 
