@@ -57,10 +57,19 @@ function calcDivide() {
   operationsArray.push("/");
 }
 
+function calcEquals() {
+  operationsArray.push(displayVal);
+  var evaluation = eval(operationsArray.join(" "));
+  displayVal = evaluation + "";
+  displayedResult.innerText = displayVal;
+  operationsArray = [];
+}
+
 plusBtn.addEventListener("click", calcPlus);
 minusBtn.addEventListener("click", calcMinus);
 multiplyBtn.addEventListener("click", calcMultiply);
 divideBtn.addEventListener("click", calcDivide);
+equalBtn.addEventListener("click", calcEquals);
 
 // the equal function will use .join(' ')); // ['2', '+', '3'] => '2 + 3'
 
