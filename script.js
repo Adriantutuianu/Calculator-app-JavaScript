@@ -26,7 +26,11 @@ var operationsArray = [];
 // create functions for all operations: plus, minus, multiply, divide & equal
 // push to array the pending value, operation and second value
 function calcPlus() {
-  console.log("ok");
+  pendingVal = displayVal;
+  displayVal = "0";
+  displayedResult.innerText = displayVal;
+  operationsArray.push(pendingVal);
+  operationsArray.push("+");
 }
 
 plusBtn.addEventListener("click", calcPlus);
