@@ -30,7 +30,7 @@ header {
   font-family: "Kanit", sans-serif;
   text-align: center;
   font-size: 44px;
-  color: #46a3bf;
+  color: var(--primary-color);
 }
 
 footer {
@@ -62,6 +62,19 @@ footer {
   height: 340px;
   margin-top: 10px;
   /* border-radius: 7px; */
+}
+/* Operator buttons */
+.content .operator-btn {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 300px;
+  transition: 1ms ease-in;
+}
+.content .operator-btn:hover {
+  background-color: var(--secondary-color);
+}
+.content .operator-btn:active {
+  background-color: var(--dark-grey);
 }
 
 .content div {
