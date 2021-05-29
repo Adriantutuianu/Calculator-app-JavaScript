@@ -61,7 +61,7 @@ footer {
   width: 280px;
   height: 340px;
   margin-top: 10px;
-  /* border-radius: 7px; */
+  border-radius: 12px;
 }
 /* Operator buttons */
 .content .operator-btn {
@@ -104,6 +104,7 @@ footer {
 .content div.equal {
   background-color: var(--secondary-color);
   color: white;
+  border-bottom-right-radius: 10px;
 }
 .content div.equal:active {
   background-color: var(--dark-grey);
@@ -121,6 +122,8 @@ footer {
   letter-spacing: 2px;
   min-height: 80px;
   background-color: var(--dark-grey);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .ac {
   grid-area: ac;
@@ -169,6 +172,7 @@ footer {
 }
 .number-0 {
   grid-area: number-0;
+  border-bottom-left-radius: 10px;
 }
 .dot {
   grid-area: dot;
