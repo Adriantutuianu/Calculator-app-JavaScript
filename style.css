@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #46a3bf;
+  --secondary-color: #ffa500;
+  --dark-grey: #383838;
+  --light-grey: #c0c0c0;
+}
+
 html {
   height: 100vh;
 }
