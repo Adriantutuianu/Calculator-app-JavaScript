@@ -90,13 +90,21 @@ for (var i = 0; i < calcNumBtns.length; i++) {
   calcNumBtns[i].addEventListener("click", updateDisplayVal, false);
 }
 
-// create clear button function - call it on click of AC button
-
 // create backspace button function - call it on click of backspace
 // if the current value has just 1 number should remove it and add 0, otherwise delete the last number that wass added.
 
+backspaceBtn.onclick = () => {
+  var lengthOfDisplayVal = displayVal.length;
+  displayVal = displayVal.slice(0, lengthOfDisplayVal - 1);
+  if ((displayVal = "")) {
+    displayVal = "0"; //fix to have at least number 0 visible
+  }
+  displayedResult.innerText = displayVal;
+};
+
 // create decimal button function
 
+// create clear button function - call it on click of AC button
 clearBtn.onclick = () => {
   displayVal = "0";
   pendingVal = "undefined"; //since we clear everything
