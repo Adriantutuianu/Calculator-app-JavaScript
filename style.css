@@ -91,6 +91,12 @@ footer {
 .content div:hover {
   cursor: pointer;
 }
+
+.content div:active {
+  background-color: var(--dark-grey);
+  color: white;
+}
+
 .content div.result:hover {
   cursor: default;
 }
