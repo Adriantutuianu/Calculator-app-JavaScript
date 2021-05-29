@@ -58,6 +58,9 @@ function calcDivide() {
 }
 
 plusBtn.addEventListener("click", calcPlus);
+minusBtn.addEventListener("click", calcMinus);
+multiplyBtn.addEventListener("click", calcMultiply);
+divideBtn.addEventListener("click", calcDivide);
 
 // the equal function will use .join(' ')); // ['2', '+', '3'] => '2 + 3'
 
